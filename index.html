@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MaggieTV — Privacy Policy</title>
+<title>MaggieTV Privacy Policy</title>
 <style>
   body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
   h1 { font-size: 1.9em; } h2 { margin-top: 1.6em; font-size: 1.25em; }
@@ -11,36 +11,54 @@
 </style>
 </head>
 <body>
-<h1>MaggieTV — Privacy Policy</h1>
-<p><em>Last updated: 11 July 2026</em></p>
+<h1>MaggieTV Privacy Policy</h1>
+<p><em>Last updated: 26 September 2026</em></p>
 
 <p>MaggieTV ("the app") is a media player for IPTV playlists that you, the user, supply.
 This policy explains what information the app handles and where it goes.</p>
 
 <h2>Data we collect</h2>
-<p><strong>None.</strong> MaggieTV has no user accounts, no analytics, no advertising and no tracking.
+<p><strong>None.</strong> MaggieTV has no user accounts, no advertising, no tracking and no analytics of its own.
 The developer operates no servers and receives no data from the app.</p>
+<p>On phones and tablets, the Google Cast software built into the app sends anonymous usage data to Google, not to the developer.
+This is why the app's Google Play listing shows "App activity" as collected. See <a href="#google-cast">Google Cast</a> below.</p>
 
 <h2>Data stored on your device</h2>
 <p>The following stays on your device only, and is removed when you clear the app's data or uninstall it:</p>
 <ul>
   <li>Playlist sources you add (M3U URLs or Xtream server address, username and password)</li>
+  <li>Your OpenSubtitles username and password, if you sign in</li>
   <li>Favourites, watch history and playback positions</li>
   <li>Profiles and app preferences (theme, layout, subtitle settings)</li>
   <li>Cached channel/programme catalogues and artwork</li>
 </ul>
+<p>MaggieTV opts out of Android backup. None of this data is copied to the backup in your Google account or moved to a new device when you set one up,
+so after a reset or on a new device you add your playlist again.</p>
 
 <h2>Network connections the app makes</h2>
 <p>To function, the app connects directly from your device to third-party services. Your requests are subject to those services' own privacy policies:</p>
 <ul>
-  <li><strong>Your IPTV provider</strong> — the playlist, guide data and streams are fetched from the provider whose details you configured. The developer has no relationship with, and no visibility into, that provider.</li>
-  <li><strong>OpenSubtitles</strong> (optional) — if you sign in to OpenSubtitles inside the app, your OpenSubtitles credentials and subtitle searches (title names) are sent to opensubtitles.com only.</li>
-  <li><strong>Wikidata / Wikimedia</strong> — title names are looked up to fetch ratings, cast and artwork metadata. No personal data is included in these lookups.</li>
-  <li><strong>Google Cast</strong> (optional, mobile) — if you cast to a Chromecast device, playback is handled by Google's Cast framework on your local network.</li>
+  <li><strong>Your IPTV provider:</strong> the playlist, guide data and streams are fetched from the provider whose details you configured. The developer has no relationship with, and no visibility into, that provider.</li>
+  <li><strong>OpenSubtitles</strong> (optional): if you sign in to OpenSubtitles inside the app, your OpenSubtitles credentials and subtitle searches (title names) are sent to opensubtitles.com only.</li>
+  <li><strong>Wikidata / Wikimedia:</strong> title names are looked up to fetch ratings, cast and artwork metadata. No personal data is included in these lookups.</li>
+  <li><strong>Google Cast</strong> (phones and tablets): see <a href="#google-cast">Google Cast</a> below.</li>
 </ul>
 
+<h2 id="google-cast">Google Cast (phones and tablets)</h2>
+<p>MaggieTV includes Google's Cast SDK so you can send movies and episodes to a Chromecast or another Google Cast device.
+On phones and tablets with Google Play services, the SDK starts with the app, even if you never cast. It is not started on Android TV.</p>
+<ul>
+  <li><strong>What Google receives:</strong> usage data about Cast device discovery and casting sessions, with general information about your phone and about the app. Google states that these logs are anonymous and contain no identifier that can be traced back to you.</li>
+  <li><strong>Why:</strong> Google uses this data, in aggregate, to monitor and improve the Cast SDK and to detect defects. It is not used to model your behaviour.</li>
+  <li><strong>Security and retention:</strong> the data is encrypted in transit, kept for a short period only and not shared with third parties.</li>
+  <li><strong>Your choices:</strong> the data goes to Google, not to the developer. Neither you nor the developer can turn this collection off or ask for the data to be deleted.</li>
+  <li><strong>When you cast:</strong> the app sends the stream address, the title and its artwork to the Cast device you pick on your local network, which then plays the stream directly from your IPTV provider. For Xtream playlists, the stream address contains your provider username and password.</li>
+</ul>
+<p>Google describes this collection on its <a href="https://developers.google.com/cast/docs/android_sender/data_disclosure">Cast SDK data disclosure page</a>.
+Google's handling of data is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
 <h2>Children</h2>
-<p>MaggieTV is intended for adults (18+). It does not knowingly collect any data from anyone, including children.</p>
+<p>MaggieTV is intended for adults (18+). The developer does not knowingly collect any data from anyone, including children.</p>
 
 <h2>Your responsibilities</h2>
 <p>MaggieTV does not provide any content. You are responsible for the playlists you add and for having the right to access their content in your country.</p>
