@@ -28,11 +28,12 @@ See <a href="#in-app-purchase">In-app purchase</a> below.</p>
 <h2>Data stored on your device</h2>
 <p>The following stays on your device only, and is removed when you clear the app's data or uninstall it:</p>
 <ul>
-  <li>Playlist sources you add (M3U URLs or Xtream server address, username and password)</li>
+  <li>Playlist sources you add (M3U URLs, Xtream server address, username and password, or Stalker portal address and MAC address)</li>
   <li>Your OpenSubtitles username and password, if you sign in</li>
   <li>Favourites, watch history and playback positions</li>
   <li>Profiles and app preferences (theme, layout, subtitle settings)</li>
   <li>Cached channel/programme catalogues and artwork</li>
+  <li>Films and episodes you download to watch offline (phones and tablets, MaggieTV Premium), with their titles and artwork addresses. They are kept in the app's private storage and deleted when you delete the download, clear the app's data or uninstall it.</li>
   <li>Whether MaggieTV Premium is unlocked, as last confirmed by Google Play, so the app keeps it when you are offline</li>
 </ul>
 <p>MaggieTV opts out of Android backup. None of this data is copied to the backup in your Google account or moved to a new device when you set one up,
@@ -41,7 +42,7 @@ so after a reset or on a new device you add your playlist again.</p>
 <h2>Network connections the app makes</h2>
 <p>To function, the app connects directly from your device to third-party services. Your requests are subject to those services' own privacy policies:</p>
 <ul>
-  <li><strong>Your IPTV provider:</strong> the playlist, guide data and streams are fetched from the provider whose details you configured. The developer has no relationship with, and no visibility into, that provider.</li>
+  <li><strong>Your IPTV provider:</strong> the playlist, guide data, streams and the films and episodes you download are fetched from the provider whose details you configured. The developer has no relationship with, and no visibility into, that provider.</li>
   <li><strong>OpenSubtitles</strong> (optional): if you sign in to OpenSubtitles inside the app, your OpenSubtitles credentials and subtitle searches (title names) are sent to opensubtitles.com only.</li>
   <li><strong>Wikidata / Wikimedia:</strong> title names are looked up to fetch ratings, cast and artwork metadata. No personal data is included in these lookups.</li>
   <li><strong>Google Cast</strong> (phones and tablets): see <a href="#google-cast">Google Cast</a> below.</li>
@@ -67,7 +68,7 @@ Google's handling of data is covered by the <a href="https://policies.google.com
   <li><strong>Payment:</strong> Google Play handles the whole payment. Your card or other payment details go to Google only, and the app and the developer never see them.</li>
   <li><strong>Checking your purchase:</strong> when the app starts and each time you come back to it, it asks the Google Play Store on your device whether your Google account owns Premium. The answer is kept on your device for offline use. The app sends nothing about your purchase to the developer, who operates no servers.</li>
   <li><strong>What the developer receives:</strong> for each purchase, Google Play gives the developer an order record with the order number, date, price and currency, and the buyer's country, region, city and postcode, used for accounting, tax and refunds. It does not include your name or email address.</li>
-  <li><strong>Refunds:</strong> refunds are handled by Google Play. After a refund, Premium is turned off the next time the app checks with Google Play. Your playlists, profiles and other data on your device are kept.</li>
+  <li><strong>Refunds:</strong> refunds are handled by Google Play. After a refund, Premium is turned off the next time the app checks with Google Play. Your playlists, profiles, downloads and other data on your device are kept, and downloads stay locked until Premium is back.</li>
 </ul>
 <p>Google's handling of your payment is covered by the <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
