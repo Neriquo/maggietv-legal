@@ -33,7 +33,7 @@ See <a href="#in-app-purchase">In-app purchase</a> below.</p>
   <li>Favourites, watch history and playback positions</li>
   <li>Profiles and app preferences (theme, layout, audio and subtitle languages, including the ones picked for a single film or series, and for a kids profile the folders it may show)</li>
   <li>Programme reminders you set (MaggieTV Premium): the programme's title and times, and its channel's name, logo and stream address, until the programme ends. At the start, the app shows the reminder on screen, or as a notification on your device when the app is closed; it is shown by Android and goes nowhere else.</li>
-  <li>Cached channel/programme catalogues and artwork</li>
+  <li>Cached channel/programme catalogues and artwork, and on Android TV a list of the titles of your films, series and channels for the TV's search (see <a href="#tv-search">TV search</a> below)</li>
   <li>Films and episodes you download to watch offline (phones and tablets, MaggieTV Premium), with their titles and artwork addresses. They are kept in the app's private storage and deleted when you delete the download, clear the app's data or uninstall it.</li>
   <li>Whether MaggieTV Premium is unlocked, as last confirmed by Google Play, so the app keeps it when you are offline</li>
 </ul>
@@ -59,6 +59,14 @@ so after a reset or on a new device you add your playlist again, or restore a ba
   <li><strong>Google Cast</strong> (phones and tablets): see <a href="#google-cast">Google Cast</a> below.</li>
   <li><strong>Google Play</strong>: the app asks the Google Play Store on your device whether you own MaggieTV Premium, and opens Google Play's purchase screen when you buy it. See <a href="#in-app-purchase">In-app purchase</a> below.</li>
   <li><strong>Your phone</strong> (Android TV): while the screen for adding or editing a playlist, or the Backup page, is open on the TV, the app runs a small web page on your home network, which your phone opens through the QR code shown on the TV. What goes between them (the playlist details you type, or a backup file your phone downloads or sends back) travels over your home network only, never through the internet or the developer. The page is only reachable through the one-time address in that code, and it closes when you leave the screen.</li>
+</ul>
+
+<h2 id="tv-search">TV search (Android TV)</h2>
+<p>On Android TV, the films, series and channels of your playlists can show in the TV's own search and in the Google Assistant's results, so that searching for a title finds it in MaggieTV.</p>
+<ul>
+  <li><strong>What is shared:</strong> when the TV's search asks, MaggieTV gives it the titles that match what you typed or said, with their year, length, folder name and the address of their poster or logo, which the TV's search may load to show it. Stream addresses and playlist logins are never shared. Folders you hid stay out, and a kids profile shares only its allowed folders.</li>
+  <li><strong>Who receives it:</strong> the search app built into your TV, made by Google or by your TV's maker, on the device itself. Only the system's search can ask, other apps cannot. What that search app does with your searches and their results is covered by its maker's privacy policy, for Google the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. MaggieTV sends nothing to the developer.</li>
+  <li><strong>Your choice:</strong> it is on by default. Settings &gt; Playback &gt; Show in TV search turns it off, and the titles then leave the TV's search at once.</li>
 </ul>
 
 <h2 id="google-cast">Google Cast (phones and tablets)</h2>
