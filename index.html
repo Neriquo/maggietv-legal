@@ -37,7 +37,16 @@ See <a href="#in-app-purchase">In-app purchase</a> below.</p>
   <li>Whether MaggieTV Premium is unlocked, as last confirmed by Google Play, so the app keeps it when you are offline</li>
 </ul>
 <p>MaggieTV opts out of Android backup. None of this data is copied to the backup in your Google account or moved to a new device when you set one up,
-so after a reset or on a new device you add your playlist again.</p>
+so after a reset or on a new device you add your playlist again, or restore a backup file you saved yourself (see <a href="#backup-file">Backup file</a> below).</p>
+
+<h2 id="backup-file">Backup file (MaggieTV Premium)</h2>
+<p>Settings &gt; Backup lets you save the data listed above in one file and restore it later, after a reinstall or on another device. You decide when a backup is made and where it goes.</p>
+<ul>
+  <li><strong>What it holds:</strong> your playlists with their logins and passwords, your profiles with the OpenSubtitles login and a fingerprint of the parental PIN (not the code itself), favourites, watch history and app preferences, as plain text. Films and episodes you downloaded, and your Premium status, are not in it.</li>
+  <li><strong>Where it goes:</strong> on a phone or tablet, wherever you choose in Android's file picker, for example the device's storage or a cloud drive you use, whose own privacy policy then applies. On Android TV, your phone downloads it from a page the TV serves on your home network (see Your phone below). The app never sends it anywhere else, and the developer never receives it.</li>
+  <li><strong>Restoring:</strong> restoring a backup replaces the app's data on the device with the file's content, after you confirm.</li>
+  <li><strong>Keep it private:</strong> anyone who has the file can read your logins. Store it somewhere only you can reach, and delete copies you no longer need.</li>
+</ul>
 
 <h2>Network connections the app makes</h2>
 <p>To function, the app connects directly from your device to third-party services. Your requests are subject to those services' own privacy policies:</p>
@@ -47,7 +56,7 @@ so after a reset or on a new device you add your playlist again.</p>
   <li><strong>Wikidata / Wikimedia:</strong> title names are looked up to fetch ratings, cast and artwork metadata. No personal data is included in these lookups.</li>
   <li><strong>Google Cast</strong> (phones and tablets): see <a href="#google-cast">Google Cast</a> below.</li>
   <li><strong>Google Play</strong>: the app asks the Google Play Store on your device whether you own MaggieTV Premium, and opens Google Play's purchase screen when you buy it. See <a href="#in-app-purchase">In-app purchase</a> below.</li>
-  <li><strong>Your phone, during setup</strong> (Android TV): while the screen for adding or editing a playlist is open on the TV, the app runs a small web page on your home network, which your phone opens through the QR code shown on the TV. The playlist details you type there go from your phone to the TV over your home network only, never through the internet or the developer, and fill in the TV's form. The page is only reachable through the one-time address in that code, and it closes when you leave the screen.</li>
+  <li><strong>Your phone</strong> (Android TV): while the screen for adding or editing a playlist, or the Backup page, is open on the TV, the app runs a small web page on your home network, which your phone opens through the QR code shown on the TV. What goes between them (the playlist details you type, or a backup file your phone downloads or sends back) travels over your home network only, never through the internet or the developer. The page is only reachable through the one-time address in that code, and it closes when you leave the screen.</li>
 </ul>
 
 <h2 id="google-cast">Google Cast (phones and tablets)</h2>
